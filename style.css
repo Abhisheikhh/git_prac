@@ -1,0 +1,23 @@
+/* style.css */
+
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+}
+
+h1 {
+  color: #00ffe0;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 5px #00ffe066;
+  transition: transform 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  color: #00bfa6;
+}
